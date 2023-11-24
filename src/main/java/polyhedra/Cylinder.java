@@ -117,7 +117,7 @@ public class Cylinder extends Polyhedron {
     @Override
     public void scale(double scalingFactor)
     {
-        // Implement this function
+        // Implement this function,  did it first try
         this.radius *= scalingFactor;
         this.height *= scalingFactor;
         this.boundingBox.scale(scalingFactor);
